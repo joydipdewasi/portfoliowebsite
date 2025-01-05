@@ -56,7 +56,8 @@ const AboutSection = () => {
   };
 
   return (
-    <section id="about" className="text-gray-600 body-font">
+    // ---------id="about"add hoba akhana---------
+    <section className="text-gray-600 body-font">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/about.png" alt="about" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full justify-center">
