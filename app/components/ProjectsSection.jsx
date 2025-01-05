@@ -52,6 +52,9 @@
 
 // export default ProjectsSection;
 
+// ========================================================================================
+
+// -------------------------------------this is animated code and upper code is not animated code----------------------------------------
 'use client';
 import React, { useState, useRef } from 'react';
 import ProjectCard from './ProjectCard';
@@ -64,7 +67,7 @@ const projectsData = [
     title: 'Luxury-Interior-Design Website',
     description: 'Project 1 description',
     image: '/1.png', // Ensure these paths are correct
-    tag: ['All', 'Web'],
+    tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
     gitUrl: 'https://github.com/joydipdewasi/Luxury-Interior-Design-',
     previewUrl: 'https://luxury-interior-design.vercel.app/',
   },
@@ -73,7 +76,7 @@ const projectsData = [
     title: 'Use-Full-Tools Website',
     description: 'Project 2 description',
     image: '/2.png', // Ensure these paths are correct
-    tag: ['All', 'Web'],
+    tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
     gitUrl: 'https://github.com/joydipdewasi/Use-Full-Tools',
     previewUrl: 'https://use-full-tools.vercel.app/',
   },
@@ -82,7 +85,7 @@ const projectsData = [
     title: 'coffee-shop Website',
     description: 'Project 3 description',
     image: '/3.png', // Ensure these paths are correct
-    tag: ['All', 'Web'],
+    tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
     gitUrl: 'https://github.com/joydipdewasi/coffee-shop',
     previewUrl: 'https://coffee-shop-red-theta.vercel.app/',
   },
@@ -91,7 +94,7 @@ const projectsData = [
     title: 'img-3d-slider Website',
     description: 'Project 4 description',
     image: '/4.png', // Ensure these paths are correct
-    tag: ['All', 'Mobile'],
+    tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
     gitUrl: 'https://github.com/joydipdewasi/img-slider-2--3d-',
     previewUrl: 'https://img-slider-2-3d.vercel.app/',
   },
