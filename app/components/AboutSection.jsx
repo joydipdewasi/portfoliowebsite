@@ -9,16 +9,16 @@ const TAB_DATA = [
     id: 'skills',
     content: (
       <ul className=" pl-2 flex flex-wrap gap-4 text-white">
-        <li>C++</li>
-        <li>C</li>
-        <li>Javascript</li>
-        <li>Html</li>
-        <li>Css</li>
-        <li>React.js</li>
-        <li>Next.js</li>
-        <li>Tailwindcss</li>
-        <li>ReactNative</li>
-        <li>Firebase</li>
+        <li>C++ ,</li>
+        <li>C ,</li>
+        <li>Javascript ,</li>
+        <li>Html ,</li>
+        <li>Css ,</li>
+        <li>React.js ,</li>
+        <li>Next.js ,</li>
+        <li>Tailwindcss ,</li>
+        <li>ReactNative ,</li>
+        <li>Firebase ,</li>
       </ul>
     ),
   },
@@ -56,7 +56,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-gray-600 body-font">
+    <section id="about" className="text-gray-600 body-font">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/about.png" alt="about" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full justify-center">
