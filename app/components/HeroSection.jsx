@@ -5,7 +5,16 @@ import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 
+// ----------------for cv downloding button ----------------
 const HeroSection = () => {
+  const handleCVDownload = () => {
+    // Trigger CV download
+    const link = document.createElement('a');
+    link.href = '/cv.pdf'; // Replace with the actual file path in your `public` folder
+    link.download = 'Joydip_CV.pdf'; // Suggested file name
+    link.click();
+  };
+
   return (
     <div>
       <section className="lg:py-16">
@@ -22,16 +31,7 @@ const HeroSection = () => {
               </span>
               <br />
               <TypeAnimation
-                sequence={[
-                  'Joydip',
-                  1000,
-                  'Web Developer',
-                  1000,
-                  'App Developer',
-                  1000,
-                  'UI/UX Designer',
-                  1000,
-                ]}
+                sequence={['Joydip', 1000, 'Frontend Web Developer', 1000]}
                 wrapper="span"
                 speed={50}
                 repeat={Infinity}
@@ -46,7 +46,10 @@ const HeroSection = () => {
               <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-300 text-white">
                 Hire Me
               </button>
-              <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 text-white mt-3">
+              <button
+                onClick={handleCVDownload}
+                className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 text-white mt-3"
+              >
                 <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                   Download CV
                 </span>
