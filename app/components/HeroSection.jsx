@@ -1,9 +1,9 @@
 'use client'; // This makes the file a Client Component
-
 import React from 'react';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
+import { useRouter } from 'next/navigation';
 
 // ----------------for cv downloding button ----------------
 const HeroSection = () => {
@@ -13,6 +13,11 @@ const HeroSection = () => {
     link.href = '/cv.pdf'; // Replace with the actual file path in your `public` folder
     link.download = 'Joydip_CV.pdf'; // Suggested file name
     link.click();
+  };
+
+  const router = useRouter();
+  const handleHire = () => {
+    router.push('/contectInfo'); // Replace with the actual path to your contact page
   };
 
   return (
@@ -43,7 +48,10 @@ const HeroSection = () => {
             </p>
             {/* --------Button section-------- */}
             <div className="flex space-x-4">
-              <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-300 text-white">
+              <button
+                onClick={handleHire}
+                className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-300 text-white"
+              >
                 Hire Me
               </button>
               <button
