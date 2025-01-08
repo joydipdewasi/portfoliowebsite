@@ -1,60 +1,3 @@
-// import React from 'react';
-// import ProjectCard from './ProjectCard'; // Ensure the file path is correct
-
-// const ProjectsData = [
-//   {
-//     id: 1,
-//     title: 'Project 1',
-//     description: 'This is project 1',
-//     image: '/1.png', // Path relative to the "public" folder
-//     tag: ['All', 'Web'],
-//   },
-//   {
-//     id: 2,
-//     title: 'Project 2',
-//     description: 'This is project 2',
-//     image: '/2.png',
-//     tag: ['All', 'Web'],
-//   },
-//   {
-//     id: 3,
-//     title: 'Project 3',
-//     description: 'This is project 3',
-//     image: '/3.png',
-//     tag: ['All', 'Web'],
-//   },
-//   {
-//     id: 4,
-//     title: 'Project 4',
-//     description: 'This is project 4',
-//     image: '/4.png',
-//     tag: ['All', 'Web'],
-//   },
-// ];
-
-// const ProjectsSection = () => {
-//   return (
-//     <section>
-//       <h2 className="text-2xl font-bold mb-6">My Projects</h2>
-//       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-//         {ProjectsData.map((project) => (
-//           <ProjectCard
-//             key={project.id}
-//             title={project.title}
-//             description={project.description}
-//             image={project.image}
-//           />
-//         ))}
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default ProjectsSection;
-
-// ========================================================================================
-
-// -------------------------------------this is animated code and upper code is not animated code----------------------------------------
 'use client';
 import React, { useState, useRef } from 'react';
 import ProjectCard from './ProjectCard';
@@ -65,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: 'Luxury-Interior-Design Website',
-    description: 'Project 1 description',
+    description: 'Use Skills : Reactjs, Tailwindcss, Framer-motion',
     image: '/1.png', // Ensure these paths are correct
     tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
     gitUrl: 'https://github.com/joydipdewasi/Luxury-Interior-Design-',
@@ -74,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: 'Use-Full-Tools Website',
-    description: 'Project 2 description',
+    description: 'Use Skills : Reactjs, Tailwindcss, Weather API',
     image: '/2.png', // Ensure these paths are correct
     tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
     gitUrl: 'https://github.com/joydipdewasi/Use-Full-Tools',
@@ -83,7 +26,7 @@ const projectsData = [
   {
     id: 3,
     title: 'coffee-shop Website',
-    description: 'Project 3 description',
+    description: 'Use Skills : Html, Css, Javascript',
     image: '/3.png', // Ensure these paths are correct
     tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
     gitUrl: 'https://github.com/joydipdewasi/coffee-shop',
@@ -92,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: 'img-3d-slider Website',
-    description: 'Project 4 description',
+    description: 'Use Skills : Html, Css',
     image: '/4.png', // Ensure these paths are correct
     tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
     gitUrl: 'https://github.com/joydipdewasi/img-slider-2--3d-',

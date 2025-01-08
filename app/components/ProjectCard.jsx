@@ -1,31 +1,3 @@
-// import React from 'react';
-// import Image from 'next/image';
-
-// const ProjectCard = ({ title, description, image }) => {
-//   return (
-//     <div>
-//       <div className="p-4 border rounded-lg shadow-md bg-gray-800 text-white">
-//         <Image
-//           className="relative rounded-t-xl group"
-//           src={image}
-//           alt={title}
-//           width={500} // Explicit width
-//           height={300} // Explicit height
-//           priority
-//           style={{ objectFit: 'cover', borderRadius: '8px' }} // Adjust scaling and add styling
-//         />
-//         <div className="overlay absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500"></div>
-//         <div className="text-white rounded-b-xl bg-[#1818181] py-6 px-4">
-//           <h3 className="text-xl font-bold mt-4">{title}</h3>
-//           <p className="text-[#ADB7BE]">{description}</p>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default ProjectCard;
-
 import React from 'react';
 import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
