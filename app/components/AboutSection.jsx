@@ -101,9 +101,8 @@ const AboutSection = () => {
         >
           <h2 className="text-4xl font-bold mb-4 text-white">About Us</h2>
           <p className="lg:text-lg text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. Franzen you probably
-            haven't heard of them
+            I am currently pursuing B.E at “ Jadavpur University ”. I have high
+            interest in Robotics and Technical Field.
           </p>
           <div className="flex flex-row justify-start mt-8">
             {TAB_DATA.map((tabData) => (
