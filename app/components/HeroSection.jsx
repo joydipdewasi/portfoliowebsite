@@ -44,19 +44,24 @@ const HeroSection = () => {
             </h1>
             <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
               I'm a Frontend developer with a passion for building beautiful
-              websites and web applications.
+              websites and web applications. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Nobis praesentium culpa eligendi
+              eveniet. Iure quam ea vitae delectus dolore. Dolorum sapiente
+              nostrum incidunt a optio dolores hic, vel sed molestias officiis
+              et neque ad, nesciunt non ducimus sunt unde earum sequi numquam
+              sit saepe ex, beatae recusandae? Modi, officiis at.
             </p>
             {/* --------Button section-------- */}
             <div className="flex space-x-4">
               <button
                 onClick={handleHire}
-                className="px-6 py-3 w-40 sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-300 text-white"
+                className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-300 text-white"
               >
                 Hire Me
               </button>
               <button
                 onClick={handleCVDownload}
-                className="px-1 py-1 w-40 sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 text-white mt-3"
+                className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 text-white mt-3"
               >
                 <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                   Download CV
