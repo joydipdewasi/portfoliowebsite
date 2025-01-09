@@ -17,7 +17,7 @@ const navLink = [
   // },
   {
     title: 'Contact',
-    link: '#contact',
+    link: '#contect',
   },
 ];
 
