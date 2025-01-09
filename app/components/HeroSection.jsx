@@ -43,19 +43,18 @@ const HeroSection = () => {
               />
             </h1>
             <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-              I'm a Frontend developer with a passion for building beautiful
-              websites and web applications. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Nobis praesentium culpa eligendi
-              eveniet. Iure quam ea vitae delectus dolore. Dolorum sapiente
-              nostrum incidunt a optio dolores hic, vel sed molestias officiis
-              et neque ad, nesciunt non ducimus sunt unde earum sequi numquam
-              sit saepe ex, beatae recusandae? Modi, officiis at.
+              I am a passionate developer with a keen interest in creating
+              dynamic and beautiful web experiences. Let's build something
+              amazing together!
             </p>
             {/* --------Button section-------- */}
             <div className="flex space-x-4">
+              {/* ( I am a passionate developer with a keen interest in creating
+              dynamic and beautiful web experiences. Let's build something
+              amazing together!.) ai lakhata change korala mobile ar khatra responsiv kharab hoa jaba aii jonno hire me button a w-44 thaka w- full korta hoba nahola thik hoba na  */}
               <button
                 onClick={handleHire}
-                className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-300 text-white"
+                className="px-6 py-3 w-44 sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-300 text-white"
               >
                 Hire Me
               </button>

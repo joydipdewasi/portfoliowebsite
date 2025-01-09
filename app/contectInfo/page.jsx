@@ -1,7 +1,7 @@
 import React from 'react';
 
 const contectInfo = {
-  email: 'your.email@gmail.com',
+  email: 'priyomdewasi@gmail.com',
   github: 'https://github.com/joydipdewasi',
   linkedin:
     'https://www.linkedin.com/in/joydip-dewasi-94916127b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
@@ -21,7 +21,7 @@ const ContectInfo = () => {
               href={`mailto:${contectInfo.email}`}
               className="text-lg font-medium text-blue-400 hover:underline"
             >
-              {contectInfo.email}
+              {/* {contectInfo.email} */} Email
             </a>
           </li>
           <li className="flex items-center space-x-3">

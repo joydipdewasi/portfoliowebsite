@@ -3,20 +3,20 @@ import React from 'react';
 const achievementsList = [
   {
     metric: 'Projects',
-    value: '100+',
+    value: '15+',
   },
   {
     metric: 'Users',
-    value: '50+',
-  },
-  {
-    metric: 'Awards',
     value: '10+',
   },
   {
     metric: 'Years',
-    value: '5+',
+    value: '1+',
   },
+  // {
+  //   metric: 'Awards',
+  //   value: '10+',
+  // },
 ];
 
 const AchievementsSection = () => {

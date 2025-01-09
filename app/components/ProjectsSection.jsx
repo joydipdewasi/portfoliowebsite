@@ -7,8 +7,8 @@ import { motion, useInView } from 'framer-motion';
 const projectsData = [
   {
     id: 1,
-    title: 'Luxury-Interior-Design Website',
-    description: 'Use Skills : Reactjs, Tailwindcss, Framer-motion',
+    title: 'Portfolio Website',
+    description: 'Use Skills : Next.js, Tailwindcss, Framer-motion',
     image: '/1.png', // Ensure these paths are correct
     tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
     gitUrl: 'https://github.com/joydipdewasi/Luxury-Interior-Design-',
@@ -16,8 +16,8 @@ const projectsData = [
   },
   {
     id: 2,
-    title: 'Use-Full-Tools Website',
-    description: 'Use Skills : Reactjs, Tailwindcss, Weather API',
+    title: 'Luxury-Interior-Design Website',
+    description: 'Use Skills : React.js, Tailwindcss, Framer-motion',
     image: '/2.png', // Ensure these paths are correct
     tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
     gitUrl: 'https://github.com/joydipdewasi/Use-Full-Tools',
@@ -25,8 +25,8 @@ const projectsData = [
   },
   {
     id: 3,
-    title: 'coffee-shop Website',
-    description: 'Use Skills : Html, Css, Javascript',
+    title: 'Use-Full-Tools Website',
+    description: 'Use Skills : React.js, Tailwindcss, Weather API',
     image: '/3.png', // Ensure these paths are correct
     tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
     gitUrl: 'https://github.com/joydipdewasi/coffee-shop',
@@ -34,9 +34,18 @@ const projectsData = [
   },
   {
     id: 4,
+    title: 'coffee-shop Website',
+    description: 'Use Skills : Html, Css ,Javascript',
+    image: '/4.png', // Ensure these paths are correct
+    tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
+    gitUrl: 'https://github.com/joydipdewasi/img-slider-2--3d-',
+    previewUrl: 'https://img-slider-2-3d.vercel.app/',
+  },
+  {
+    id: 5,
     title: 'img-3d-slider Website',
     description: 'Use Skills : Html, Css',
-    image: '/4.png', // Ensure these paths are correct
+    image: '/5.png', // Ensure these paths are correct
     tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
     gitUrl: 'https://github.com/joydipdewasi/img-slider-2--3d-',
     previewUrl: 'https://img-slider-2-3d.vercel.app/',
