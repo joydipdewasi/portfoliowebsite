@@ -9,12 +9,12 @@ import Image from 'next/image';
 const navLink = [
   {
     title: 'About',
-    link: '/AboutSection',
+    link: '#about',
   },
-  {
-    title: 'Projects',
-    link: '#projects',
-  },
+  // {
+  //   title: 'Projects',
+  //   link: '#projects',
+  // },
   {
     title: 'Contact',
     link: '#contact',

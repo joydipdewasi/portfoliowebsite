@@ -24,7 +24,7 @@ const TAB_DATA = [
         <li>Next.js ,</li>
         <li>Tailwindcss ,</li>
         <li>ReactNative ,</li>
-        <li>Firebase ,</li>
+        <li>Firebase </li>
       </motion.ul>
     ),
   },

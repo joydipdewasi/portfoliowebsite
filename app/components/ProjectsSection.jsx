@@ -11,8 +11,8 @@ const projectsData = [
     description: 'Use Skills : Next.js, Tailwindcss, Framer-motion',
     image: '/1.png', // Ensure these paths are correct
     tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
-    gitUrl: 'https://github.com/joydipdewasi/Luxury-Interior-Design-',
-    previewUrl: 'https://luxury-interior-design.vercel.app/',
+    gitUrl: 'https://github.com/joydipdewasi/portfoliowebsite',
+    previewUrl: 'https://portfoliowebsite-zeta-olive.vercel.app/',
   },
   {
     id: 2,
@@ -71,7 +71,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects">
+    <section>
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
