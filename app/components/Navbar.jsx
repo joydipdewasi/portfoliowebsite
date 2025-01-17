@@ -6,20 +6,20 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/20/solid';
 import MenuOverlay from './MenuOverlay';
 import Image from 'next/image';
 
-const navLink = [
-  {
-    title: 'About',
-    link: '#about',
-  },
-  // {
-  //   title: 'Projects',
-  //   link: '#projects',
-  // },
-  {
-    title: 'Contact',
-    link: '#contect',
-  },
-];
+// const navLink = [
+//   {
+//     title: 'About',
+//     link: '#abu',
+//   },
+//   {
+//     title: 'Projects',
+//     link: '#pro',
+//   },
+//   {
+//     title: 'Contact',
+//     link: '#contect',
+//   },
+// ];
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -38,7 +38,7 @@ const Navbar = () => {
             className="mr-2"
           />
         </Link>
-        <div className="mobile-menu block md:hidden">
+        {/* <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
@@ -54,8 +54,8 @@ const Navbar = () => {
               <XMarkIcon className="h-5 w-5" />
             </button>
           )}
-        </div>
-        <div className="menu hidden md:block md:w-auto" id="navbar">
+        </div> */}
+        {/* <div className="menu hidden md:block md:w-auto" id="navbar">
           <ul className="flex md:space-x-8 p-4 md:p-0 md:flex-row mt-0">
             {navLink.map((link, index) => (
               <li key={index}>
@@ -63,9 +63,9 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </div>
-      {navbarOpen ? <MenuOverlay links={navLink} /> : null}
+      {/* {navbarOpen ? <MenuOverlay links={navLink} /> : null} */}
     </nav>
   );
 };

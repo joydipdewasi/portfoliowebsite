@@ -14,8 +14,11 @@ export default function Home() {
       <Navbar />
       <div className="container mt-24 mx-auto px-12 py-4">
         <HeroSection />
+        <hr className="border-t-2 border-[#333] my-8" />
         <AchievementsSection />
+        <hr className="border-t-2 border-[#333] my-10" />
         <AboutSection />
+        <hr className="border-t-2 border-[#333] my-10" />
         <ProjectsSection />
         {/* <EmailSection /> */}
       </div>

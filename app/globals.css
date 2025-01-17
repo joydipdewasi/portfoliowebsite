@@ -19,8 +19,3 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-/* ----------------------for Smooth scroll -----------------------*/
-/* html {
-  scroll-behavior: smooth;
-} */

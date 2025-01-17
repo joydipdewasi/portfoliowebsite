@@ -43,11 +43,20 @@ const projectsData = [
   },
   {
     id: 5,
-    title: 'img-3d-slider Website',
+    title: 'Confession Letter Website',
     description: 'Use Skills : Html, Css',
     image: '/5.png', // Ensure these paths are correct
     tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
     gitUrl: 'https://github.com/joydipdewasi/img-slider-2--3d-',
+    previewUrl: 'https://confession-fawn.vercel.app/',
+  },
+  {
+    id: 6,
+    title: 'img-3d-slider Website',
+    description: 'Use Skills : Html, Css',
+    image: '/6.png', // Ensure these paths are correct
+    tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
+    gitUrl: 'https://github.com/joydipdewasi/Confession',
     previewUrl: 'https://img-slider-2-3d.vercel.app/',
   },
 ];
