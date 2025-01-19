@@ -9,7 +9,7 @@ const contectInfo = {
 
 const ContectInfo = () => {
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div id="contect" className="flex items-center justify-center h-screen">
       <div className="max-w-lg mx-auto p-6 bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 rounded-lg shadow-lg text-white">
         <h2 className="text-3xl font-bold text-center mb-6">
           Contact Information
