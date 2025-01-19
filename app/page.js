@@ -20,8 +20,10 @@ export default function Home() {
         <AboutSection />
         <hr className="border-t-2 border-[#333] my-10" />
         <ProjectsSection />
+        <hr className="border-t-2 border-[#333] my-10" />
         {/* <EmailSection /> */}
       </div>
+
       <Footer />
       {/* <ContectInfo /> */}
     </main>
