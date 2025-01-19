@@ -3,8 +3,9 @@ import HeroSection from './components/HeroSection';
 import Navbar from './components/Navbar';
 import AboutSection from './components/AboutSection';
 import ProjectsSection from './components/ProjectsSection';
-import Footer from './components/Footer';
+import Footercontect from './components/Footercontect';
 import AchievementsSection from './components/AchievementsSection';
+
 // import ContectInfo from './components/contectInfo';
 // import EmailSection from './components/EmailSection';
 
@@ -21,10 +22,8 @@ export default function Home() {
         <hr className="border-t-2 border-[#333] my-10" />
         <ProjectsSection />
         <hr className="border-t-2 border-[#333] my-10" />
-        {/* <EmailSection /> */}
       </div>
-
-      <Footer />
+      <Footercontect />
       {/* <ContectInfo /> */}
     </main>
   );

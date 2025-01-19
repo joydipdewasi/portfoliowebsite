@@ -7,15 +7,20 @@ const contectInfo = {
     'https://www.linkedin.com/in/joydip-dewasi-94916127b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
 };
 
-const ContectInfo = () => {
+const Footer = () => {
   return (
-    <div className="flex items-center justify-center h-screen">
-      <div className="max-w-lg mx-auto p-6 bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 rounded-lg shadow-lg text-white">
-        <h2 className="text-3xl font-bold text-center mb-6">
-          Contact Information
-        </h2>
-        <ul className="space-y-4">
-          <li className="flex items-center space-x-3">
+    <footer
+      id="contect"
+      className="footer border border-t-[#33353F] border-l-transparent border-r-transparent text-white"
+    >
+      <h1 className="text-center mx-36 justify-center text-2xl font-bold">
+        Contect Info
+      </h1>
+
+      <div className="container p-12 flex justify-between  ">
+        {/* <div className="container p- flex justify-between"> */}
+        <ul className="space-x-12 lg:mx-28 md:mx-20 lg:space-x-64 md:space-x-40  flex flex-row">
+          <li className="flex items-center space-x-1">
             <span className="text-blue-400">📧</span>
             <a
               href={`mailto:${contectInfo.email}`}
@@ -24,7 +29,7 @@ const ContectInfo = () => {
               {/* {contectInfo.email} */} Email
             </a>
           </li>
-          <li className="flex items-center space-x-3">
+          <li className="flex items-center space-x-1">
             <span className="text-pink-400">🐙</span>
             <a
               href={contectInfo.github}
@@ -35,7 +40,7 @@ const ContectInfo = () => {
               GitHub Profile
             </a>
           </li>
-          <li className="flex items-center space-x-3">
+          <li className="flex items-center space-x-1">
             <span className="text-green-400">🔗</span>
             <a
               href={contectInfo.linkedin}
@@ -47,9 +52,10 @@ const ContectInfo = () => {
             </a>
           </li>
         </ul>
+        {/* </div> */}
       </div>
-    </div>
+    </footer>
   );
 };
 
-export default ContectInfo;
+export default Footer;
