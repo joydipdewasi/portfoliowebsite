@@ -20,8 +20,8 @@ const projectsData = [
     description: 'Use Skills : React.js, Tailwindcss, Framer-motion',
     image: '/2.png', // Ensure these paths are correct
     tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
-    gitUrl: 'https://github.com/joydipdewasi/Use-Full-Tools',
-    previewUrl: 'https://use-full-tools.vercel.app/',
+    gitUrl: 'https://github.com/joydipdewasi/Luxury-Interior-Design-',
+    previewUrl: 'https://luxury-interior-design.vercel.app/',
   },
   {
     id: 3,
@@ -29,8 +29,8 @@ const projectsData = [
     description: 'Use Skills : React.js, Tailwindcss, Weather API',
     image: '/3.png', // Ensure these paths are correct
     tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
-    gitUrl: 'https://github.com/joydipdewasi/coffee-shop',
-    previewUrl: 'https://coffee-shop-red-theta.vercel.app/',
+    gitUrl: 'https://github.com/joydipdewasi/Use-Full-Tools',
+    previewUrl: 'https://use-full-tools.vercel.app/',
   },
   {
     id: 4,
@@ -38,8 +38,8 @@ const projectsData = [
     description: 'Use Skills : Html, Css ,Javascript',
     image: '/4.png', // Ensure these paths are correct
     tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
-    gitUrl: 'https://github.com/joydipdewasi/img-slider-2--3d-',
-    previewUrl: 'https://img-slider-2-3d.vercel.app/',
+    gitUrl: 'https://github.com/joydipdewasi/coffee-shop',
+    previewUrl: 'https://coffee-shop-red-theta.vercel.app/',
   },
   {
     id: 5,
