@@ -16,15 +16,6 @@ const projectsData = [
   },
   {
     id: 2,
-    title: 'Luxury-Interior-Design Website',
-    description: 'Use Skills : React.js, Tailwindcss, Framer-motion',
-    image: '/2.png', // Ensure these paths are correct
-    tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
-    gitUrl: 'https://github.com/joydipdewasi/Luxury-Interior-Design-',
-    previewUrl: 'https://luxury-interior-design.vercel.app/',
-  },
-  {
-    id: 3,
     title: 'Use-Full-Tools Website',
     description: 'Use Skills : React.js, Tailwindcss, Weather API',
     image: '/3.png', // Ensure these paths are correct
@@ -32,6 +23,16 @@ const projectsData = [
     gitUrl: 'https://github.com/joydipdewasi/Use-Full-Tools',
     previewUrl: 'https://use-full-tools.vercel.app/',
   },
+  {
+    id: 3,
+    title: 'Luxury-Interior-Design Website',
+    description: 'Use Skills : React.js, Tailwindcss, Framer-motion',
+    image: '/2.png', // Ensure these paths are correct
+    tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
+    gitUrl: 'https://github.com/joydipdewasi/Luxury-Interior-Design-',
+    previewUrl: 'https://luxury-interior-design.vercel.app/',
+  },
+
   {
     id: 4,
     title: 'coffee-shop Website',
@@ -47,7 +48,7 @@ const projectsData = [
     description: 'Use Skills : Html, Css',
     image: '/5.png', // Ensure these paths are correct
     tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
-    gitUrl: 'https://github.com/joydipdewasi/img-slider-2--3d-',
+    gitUrl: 'https://github.com/joydipdewasi/Confession',
     previewUrl: 'https://confession-fawn.vercel.app/',
   },
   {
@@ -56,7 +57,7 @@ const projectsData = [
     description: 'Use Skills : Html, Css',
     image: '/6.png', // Ensure these paths are correct
     tag: ['All', 'Web'], //when you add your project in mobile section just change web to mobile  "like,( tag: ['All', 'Web'],-> tag: ['All', 'Mobile'],)"
-    gitUrl: 'https://github.com/joydipdewasi/Confession',
+    gitUrl: 'https://github.com/joydipdewasi/img-slider-2--3d-',
     previewUrl: 'https://img-slider-2-3d.vercel.app/',
   },
 ];
