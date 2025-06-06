@@ -1,23 +1,23 @@
-'use client'; // This makes the file a Client Component
-import React from 'react';
-import Image from 'next/image';
-import { TypeAnimation } from 'react-type-animation';
-import { motion } from 'framer-motion';
-import { useRouter } from 'next/navigation';
+"use client"; // This makes the file a Client Component
+import React from "react";
+import Image from "next/image";
+import { TypeAnimation } from "react-type-animation";
+import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 // ----------------for cv downloding button ----------------
 const HeroSection = () => {
   const handleCVDownload = () => {
     // Trigger CV download
-    const link = document.createElement('a');
-    link.href = '/cv.pdf'; // Replace with the actual file path in your `public` folder
-    link.download = 'Joydip_CV.pdf'; // Suggested file name
+    const link = document.createElement("a");
+    link.href = "/cv.pdf"; // Replace with the actual file path in your `public` folder
+    link.download = "Joydip_CV.pdf"; // Suggested file name
     link.click();
   };
 
   const router = useRouter();
   const handleHire = () => {
-    router.push('/contectInfo'); // Replace with the actual path to your contact page
+    router.push("/contectInfo"); // Replace with the actual path to your contact page
   };
 
   return (
@@ -32,20 +32,27 @@ const HeroSection = () => {
           >
             <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold lg:leading-normal">
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-pink-600">
-                Hello, I'm{' '}
+                Hello, I'm
               </span>
               <br />
               <TypeAnimation
-                sequence={['Joydip', 1000, 'Frontend Web Developer', 1000]}
+                sequence={[
+                  "Joydip",
+                  999,
+                  "CEO & Founder of CampusSign",
+                  2100,
+                  "Web and Mobile Developer",
+                  1000,
+                ]}
                 wrapper="span"
                 speed={50}
                 repeat={Infinity}
               />
             </h1>
             <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-              I am a passionate developer with a keen interest in creating
-              dynamic and beautiful web experiences. Let's build something
-              amazing together!
+              Innovative CEO & Founder of CampusSign, tech enthusiast, and web &
+              app developer passionate about creating dynamic, beautiful
+              experiences that solve real-world problems
             </p>
             {/* --------Button section-------- */}
             <div className="flex space-x-4">

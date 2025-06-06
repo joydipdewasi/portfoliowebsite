@@ -1,13 +1,13 @@
-'use client';
-import React, { useTransition, useState } from 'react';
-import Image from 'next/image';
-import TabButton from './TabButton';
-import { motion, AnimatePresence } from 'framer-motion';
+"use client";
+import React, { useTransition, useState } from "react";
+import Image from "next/image";
+import TabButton from "./TabButton";
+import { motion, AnimatePresence } from "framer-motion";
 
 const TAB_DATA = [
   {
-    title: 'Skills',
-    id: 'skills',
+    title: "Skills",
+    id: "skills",
     content: (
       <motion.ul
         initial={{ opacity: 0, y: 10 }}
@@ -18,19 +18,21 @@ const TAB_DATA = [
         <li>C++ ,</li>
         <li>C ,</li>
         <li>Javascript ,</li>
-        <li>Html ,</li>
-        <li>Css ,</li>
+        <li>ReactNative ,</li>
         <li>React.js ,</li>
         <li>Next.js ,</li>
         <li>Tailwindcss ,</li>
-        <li>ReactNative ,</li>
-        <li>Firebase </li>
+        <li>Firebase , </li>
+        <li>SQL ,</li>
+        <li>Figma ,</li>
+        <li>Html ,</li>
+        <li>Css ,</li>
       </motion.ul>
     ),
   },
   {
-    title: 'Education',
-    id: 'Education',
+    title: "Education",
+    id: "Education",
     content: (
       <motion.ul
         initial={{ opacity: 0, y: 10 }}
@@ -44,8 +46,8 @@ const TAB_DATA = [
     ),
   },
   {
-    title: 'Certifications',
-    id: 'Certifications',
+    title: "Certifications",
+    id: "Certifications",
     content: (
       <motion.ul
         initial={{ opacity: 0, y: 10 }}
@@ -60,7 +62,7 @@ const TAB_DATA = [
 ];
 
 const AboutSection = () => {
-  const [tab, settab] = useState('skills');
+  const [tab, settab] = useState("skills");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
@@ -102,8 +104,9 @@ const AboutSection = () => {
         >
           <h2 className="text-4xl font-bold mb-4 text-white">About Me</h2>
           <p className="lg:text-lg text-base">
-            I am currently pursuing B.E at “ Jadavpur University ”. I have high
-            interest in Robotics and Technical Field.
+            I am the "CEO and founder" of "CampusSign" — a tech enthusiast, web
+            and app developer passionate about solving real-world problems with
+            smart solutions. Currently pursuing a B.E. at Jadavpur University.
           </p>
           <div className="flex flex-row justify-start mt-8">
             {TAB_DATA.map((tabData) => (
